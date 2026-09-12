@@ -1,0 +1,20 @@
+feature,test,statistic,p_value,significant,effect_size,effect_size_metric,effect_magnitude,churned_mean,retained_mean
+MonthlyCharges,welch_t_test,18.408,8.59244933154705e-73,True,0.47,Cohen's d,moderate,74.44,61.27
+Contract,chi-square,1184.597,5.863038300673391e-258,True,0.41,Cramer's V,moderate,,
+OnlineSecurity,chi-square,849.999,2.6611496351765517e-185,True,0.347,Cramer's V,moderate,,
+TechSupport,chi-square,828.197,1.4430840279998987e-180,True,0.343,Cramer's V,moderate,,
+InternetService,chi-square,732.31,9.571788222840544e-160,True,0.322,Cramer's V,moderate,,
+PaymentMethod,chi-square,648.142,3.6823546520097993e-140,True,0.303,Cramer's V,moderate,,
+OnlineBackup,chi-square,601.813,2.0797592160864276e-131,True,0.292,Cramer's V,small,,
+DeviceProtection,chi-square,558.419,5.505219496457244e-122,True,0.282,Cramer's V,small,,
+StreamingTV,chi-square,374.204,5.528994485739183e-82,True,0.231,Cramer's V,small,,
+StreamingMovies,chi-square,375.661,2.667756755723681e-82,True,0.231,Cramer's V,small,,
+PaperlessBilling,chi-square,258.278,4.073354668665985e-58,True,0.191,Cramer's V,small,,
+Dependents,chi-square,189.129,4.9249216612154196e-43,True,0.164,Cramer's V,small,,
+SeniorCitizen,chi-square,159.426,1.510066805092378e-36,True,0.15,Cramer's V,small,,
+Partner,chi-square,158.733,2.1399113440759935e-36,True,0.15,Cramer's V,small,,
+MultipleLines,chi-square,11.33,0.0034643829548773,True,0.04,Cramer's V,negligible,,
+PhoneService,chi-square,0.915,0.3387825358066928,False,0.011,Cramer's V,negligible,,
+gender,chi-square,0.484,0.48657873605618596,False,0.008,Cramer's V,negligible,,
+TotalCharges,welch_t_test,-18.801,1.1524944112838114e-75,True,-0.482,Cohen's d,moderate,1531.8,2555.34
+tenure,welch_t_test,-34.824,1.1954945472607151e-232,True,-0.893,Cohen's d,large,17.98,37.57
