@@ -97,6 +97,10 @@ Built in Power BI from `outputs/dashboard_data.csv` (every customer, human-reada
 - A sortable "Top At-Risk Customers" table (customerID, tenure, MonthlyCharges, Contract, churn_probability)
 - Interactive slicers: tenure bucket, internet service type, payment method
 
+
+![Churn Risk Dashboard](outputs/dashboard_screenshot.png)
+
+
 ## Testing
 
 Every phase has a corresponding pytest suite (`tests/`), 54 tests total, covering data loading, SQL correctness, statistical function correctness (Cramér's V, Cohen's d, effect labeling), feature engineering edge cases (NaN handling for zero-tenure customers), model preprocessing, and dashboard export logic.
